@@ -32,7 +32,7 @@ public class ProjectController {
     }
 
     // GET 요청을 처리하는 메서드 추가 - 특정 pk 값의 프로젝트 조회
-    @GetMapping("/{id}")
+    @GetMapping("project/{id}")
     public ResponseEntity<Project> getProjectById(@PathVariable("id") Long pk) {
         Optional<Project> projectOptional = projectRepository.findById(pk);
         if (projectOptional.isPresent()) {

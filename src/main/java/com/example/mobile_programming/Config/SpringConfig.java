@@ -1,4 +1,4 @@
-package com.example.mobile_programming.Congig;
+package com.example.mobile_programming.Config;
 
 
 import org.springframework.context.annotation.Configuration;
